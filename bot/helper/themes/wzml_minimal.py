@@ -2,9 +2,9 @@ class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
     ST_BN1_NAME = 'Updates'
-    ST_BN1_URL = 'https://t.me/DhruvmirrorUpdates'
+    ST_BN1_URL = 'https://t.me/AJxMirror_Leech_bot_01'
     ST_BN2_NAME = 'Owner'
-    ST_BN2_URL = 'https://t.me/Dhruv444'
+    ST_BN2_URL = 'https://t.me/sAM_DUDE2'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
