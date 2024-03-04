@@ -201,7 +201,7 @@ class EngineStatus:
 
 
 def get_readable_message():
-    msg = '<b><a href="https://t.me/DhruvMirrorUpdates"><u>Dhruv Mirror Premium</u></a>\n\n</b>'
+    msg = '<b><a href="https://t.me/AJxMirror_Leech_bot_01"><u>𝐀𝐉𝐱𝐌𝐢𝐑𝐑𝐨𝐑 𝐥𝐞𝐞𝐂𝐇 𝐏𝐫𝐞𝐦𝐢𝐮𝐦</u></a>\n\n</b>'
     button = None
     STATUS_LIMIT = config_dict['STATUS_LIMIT']
     tasks = len(download_dict)
