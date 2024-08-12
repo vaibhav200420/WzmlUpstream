@@ -42,10 +42,10 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'BOT_THEME': 'minimal',
                   'BOT_LANG': 'en',
                   'IMG_PAGE': 1,
-                  'AUTHOR_NAME': 'Dhruv Mirror',
-                  'AUTHOR_URL': 'https://t.me/DhruvMirrorUpdates',
-                  'TITLE_NAME': 'Dhruv Mirror',
-                  'GD_INFO': 'Uploaded by Dhruv Mirror',
+                  'AUTHOR_NAME': 'AJ x Mirror',
+                  'AUTHOR_URL': 'https://t.me/AJxMirror_Leech_bot_01',
+                  'TITLE_NAME': 'AJ x Mirror',
+                  'GD_INFO': 'Uploaded by AJ x Mirror',
                   }
 bool_vars = ['AS_DOCUMENT', 'BOT_PM', 'STOP_DUPLICATE', 'SET_COMMANDS', 'SAVE_MSG', 'SHOW_MEDIAINFO', 'SOURCE_LINK', 'SAFE_MODE', 'SHOW_EXTRA_CMDS',
              'IS_TEAM_DRIVE', 'USE_SERVICE_ACCOUNTS', 'WEB_PINCODE', 'EQUAL_SPLITS', 'DISABLE_DRIVE_LINK', 'DELETE_LINKS', 'CLEAN_LOG_MSG', 'USER_TD_MODE', 
@@ -442,7 +442,7 @@ async def load_config():
 
     AUTHOR_NAME = environ.get('AUTHOR_NAME', '')
     if len(AUTHOR_NAME) == 0:
-        AUTHOR_NAME = 'Dhruv Mirror'
+        AUTHOR_NAME = 'AJ x Mirror'
 
     AUTHOR_URL = environ.get('AUTHOR_URL', '')
     if len(AUTHOR_URL) == 0:
@@ -458,7 +458,7 @@ async def load_config():
 
     GD_INFO = environ.get('GD_INFO', '')
     if len(GD_INFO) == 0:
-        GD_INFO = 'Uploaded by Dhruv Mirror'
+        GD_INFO = 'Uploaded by AJ x Mirror'
 
     SAVE_MSG = environ.get('SAVE_MSG', '')
     SAVE_MSG = SAVE_MSG.lower() == 'true'
